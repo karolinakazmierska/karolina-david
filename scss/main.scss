@@ -1,0 +1,13 @@
+@import '_reset';
+@import '_variables';
+@import '_nav';
+@import '_home';
+@import '_when';
+
+* {
+    font-family: 'Cormorant Upright', serif;
+}
+
+div {
+    letter-spacing: 0.15rem;
+}

@@ -1,0 +1,49 @@
+.when {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    // background: url('./../images/palacyk.jpg');
+    // background-position: center;
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    .description {
+        height: 280px;
+        width: 280px;
+        background-color: #fafafa;
+        box-shadow: 10px 10px 11px -6px rgba(41,36,66,1);
+        -webkit-box-shadow: 10px 10px 11px -6px rgba(41,36,66,1);
+        -moz-box-shadow: 10px 10px 11px -6px rgba(41,36,66,1);
+        margin-bottom: 25px;
+        padding: 12px;
+        text-align: center;
+        .date {
+            font-size: 24px;
+            font-weight: bold;
+            line-height: 1.4em;
+            color: $primary-color;
+        }
+        .day, .hour {
+            font-size: 18px;
+            text-align: center;
+            line-height: 1.4em;
+        }
+        .type {
+            font-weight: bold;
+            margin-top: 5px;
+            color: $primary-color;
+        }
+    }
+    .palace {
+        height: 280px;
+        width: 280px;
+        background: url('./../images/palacyk.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: 10px 10px 11px -6px rgba(41,36,66,1);
+        -webkit-box-shadow: 10px 10px 11px -6px rgba(41,36,66,1);
+        -moz-box-shadow: 10px 10px 11px -6px rgba(41,36,66,1);
+    }
+}

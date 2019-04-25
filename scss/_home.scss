@@ -1,0 +1,46 @@
+.home {
+    width: 100%;
+    height: 100vh;
+    background: url('./../images/proposal.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.home::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(30,0,122,0.3)
+}
+
+.title {
+    background-color: rgba(255,255,255,0.3);
+    padding: 100px 26px;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1 {
+        display: block;
+        font-size: 54px;
+        font-family: 'Italianno', cursive;
+        color: $secondary-color;
+        letter-spacing: 0;
+    }
+    h2 {
+        display: block;
+        font-size: 26px;
+        color: $secondary-color;
+    }
+}
