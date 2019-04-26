@@ -5,60 +5,219 @@
     <meta name="description" content="Karo&David">
     <title>Karolina&David</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700&amp;subset=latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cormorant+Upright:400,500,600,700|Italianno&amp;subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <div class="navbar">
-        <div id="hamburger">
-            <input type="checkbox" />
-            <span></span>
-            <span></span>
-            <span></span>
-            <ul id="menu">
-              <li><a href="#home">Home</a></li>
-              <li><a href="#when">When and where</a></li>
-              <li><a href="#how">How to get there</a></li>
-              <li><a href="#plan">Detailed plan</a></li>
-              <li><a href="#insta">#insta</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
+    <div class="container">
+        <div class="navbar">
+            <div id="hamburger">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#when">When and where</a></li>
+                  <li><a href="#how">How to get there</a></li>
+                  <li><a href="#info">Important info</a></li>
+                  <li><a href="#plan">Detailed plan</a></li>
+                  <li><a href="#insta">#insta</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
         </div>
+
+        <section class="home fadeinimage" id="home">
+            <div class="title fadein">
+                <h1>Karolina & David</h1>
+                <h2>Join us at our wedding!</h2>
+            </div>
+            <div id="countdown" class="fadein">
+                <div class="block days">
+                    <span class="value"></span>
+                    <span class="unit">days</span>
+                </div>
+                <div class="block hours">
+                    <span class="value"></span>
+                    <span class="unit">hours</span>
+                </div>
+                <div class="block minutes">
+                    <span class="value"></span>
+                    <span class="unit">minutes</span>
+                </div>
+                <div class="block seconds">
+                    <span class="value"></span>
+                    <span class="unit">seconds</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="when" id="when">
+            <h3 class="section-title">When & where?</h3>
+            <div class="wrapper">
+                <div class="description hideme">
+                    <p class="date">19.06.2019</p>
+                    <p class="day">Wednesday</p>
+                    <p class="hour">4:30 pm</p>
+                    <p class="type">Wedding ceremony:</p>
+                    <p class="address">Church of St Mary, Mother of the Church, 14 Sadowa Street, Otrebusy, Poland</p>
+                    <p class="type">Wedding reception:</p>
+                    <p class="address">Pałacyk Otrebusy, 2 Warszawska Street, Otrebusy</p>
+                </div>
+                <div class="palace hideme"></div>
+            </div>
+        </section>
+
+        <section class="how" id="how">
+            <h4 class="section-title">How to get there?</h4>
+            <div class="wrapper">
+                <div class="transport-box hideme">
+                    <p><strong>From Warsaw city center:</strong> 20km (~30min)<br/> <strong>From Łódź city center:</strong> 120km (~1h45min).</br/>
+                    Please consider leaving a bit earlier to <strong>avoid heavy traffic</strong> as Wednesday is the first day of <strong>a long weekend</strong> in Poland (Boże Ciało).
+                    Parking space available both nearby the Church and in front of Pałacyk Otrębusy.</p>
+                </div>
+                <div class="transport-box hideme">
+                    <p>Otrębusy has a <b>direct railway link</b> with Warsaw city center. Take a WKD train from Warszawa Śródmieście WKD station and get off at <b>Otrębusy WKD station</b>. The church is located 11min walk from the station. Check the itinerary on <a href="https://jakdojade.pl/warszawa/trasa/">Jak Dojade</a></p>
+                </div>
+                <div class="transport-box hideme">
+                    <p>A ride from Warsaw takes approximately 30 min and should cost you around 40-60 PLN.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="info" id="info">
+            <h4 class="section-title">Before the wedding...</h4>
+            <div class="piece">
+                <span>Special menu</span>
+                <p>If you have any specific <strong>dietary restrictions </strong>(e.g. vegan, vegetarian, gluten-free, lactose-free etc.) <strong>please let us know by June 4th</strong></p>
+            </div>
+            <div class="piece">
+                <span>Getting back to Warsaw</span>
+                <p>During the night, free transportation <strong>back to Warsaw Central Station</strong> between 3:30 and 7:00 am will be provided (a car for 8 people leaving every 45-60 min). Should you like to use it <strong>please let us know by June 4th</strong></p>
+            </div>
+            <div class="piece">
+                <span>No rice tossing...</span>
+                <p>After the wedding ceremony, <strong>please do not toss rice, confetti or anything else</strong> in front of the church. The Priest made if very clear he will make you pick it all up...</p>
+            </div>
+
+
+        </section>
+
+        <section class="plan" id="plan">
+            <h4 class="section-title">The Plan</h4>
+            <div class="timeline">
+                <ul>
+                    <li>
+                        <div class="bullet bullet-1"></div>
+                        <div class="time">4:30 pm</div>
+                        <div class="desc">
+                            <h3>Start of the ceremony</h3>
+                            <!-- <h4>Subtitle</h4> -->
+                        </div>
+                    </li>
+                    <li>
+                        <div class="bullet bullet-2"></div>
+                        <div class="time">5:40 pm</div>
+                        <div class="desc">
+                            <h3>Wishes in the garden</h3>
+                            <!-- <h4>Subtitle</h4> -->
+                        </div>
+                    </li>
+                    <li>
+                        <div class="bullet bullet-1"></div>
+                        <div class="time">5pm</div>
+                        <div class="desc">
+                            <h3>Title</h3>
+                            <h4>Subtitle</h4>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="bullet bullet-2"></div>
+                        <div class="time">7 pm</div>
+                        <div class="desc">
+                            <h3>Start of the reception</h3>
+                            <!-- <h4>Subtitle</h4> -->
+                        </div>
+                    </li>
+                    <li>
+                        <div class="bullet bullet-1"></div>
+                        <div class="time">5pm</div>
+                        <div class="desc">
+                            <h3>Title</h3>
+                            <h4>Subtitle</h4>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="bullet bullet-2"></div>
+                        <div class="time">7:30 pm</div>
+                        <div class="desc">
+                            <h3>First dance</h3>
+                            <!-- <h4>Subtitle</h4> -->
+                        </div>
+                    </li>
+                    <li>
+                        <div class="bullet bullet-1"></div>
+                        <div class="time">10:00 pm</div>
+                        <div class="desc">
+                            <h3>Cake cut</h3>
+                            <!-- <h4>Subtitle</h4> -->
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h4 class="section-title">Maids of Honour & Best Men</h4>
+            <p>...and your points of contact</p>
+            <div class="wrapper">
+                <div class="person-box">
+                    <div class="photo person-1"></div>
+                    <div>
+                        <p class="name">Kasia</p>
+                        <p class="phone">+12 345 678 980</p>
+                    </div>
+                </div>
+                <div class="person-box">
+                    <div class="photo person-2"></div>
+                    <div>
+                        <p class="name">Iza</p>
+                        <p class="phone">+12 345 678 980</p>
+                    </div>
+                </div>
+                <div class="person-box">
+                    <div class="photo person-3"></div>
+                    <div>
+                        <p class="name">Orlando</p>
+                        <p class="phone">+12 345 678 980</p>
+                    </div>
+                </div>
+                <div class="person-box">
+                    <div class="photo person-4"></div>
+                    <div>
+                        <p class="name">Miguel Ángel</p>
+                        <p class="phone">+12 345 678 980</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="insta">
+            <div class="wrapper">
+                <img src="./images/insta.png" alt="" height="42" width="42">
+                <span>#loschidoswedding</span>
+            </div>
+            <div id="feed"></div>
+        </section>
+
+        <footer>
+            <a href="https://github.com/karolinakazmierska" target="_blank">Created by: Karolina Kazmierska</a>
+        </footer>
     </div>
-
-    <section class="home" id="home">
-        <div class="title">
-            <h1>Karolina & David</h1>
-            <h2>Welcome to our page</h2>
-        </div>
-    </section>
-
-    <section class="when" id="when">
-        <h3>When & where?</h3>
-        <div class="description">
-            <p class="date">19.06.2019</p>
-            <p class="day">Wednesday</p>
-            <p class="hour">4:30 pm</p>
-            <p class="type">Wedding ceremony:</p>
-            <p class="address">Church of St Mary, Mother of the Church, 14 Sadowa Street, Otrebusy, Poland</p>
-            <p class="type">Wedding reception:</p>
-            <p class="address">Pałacyk Otrebusy, 2 Warszawska Street, Otrebusy</p>
-        </div>
-        <div class="palace"></div>
-    </section>
-
-    <section class="how" id="how">
-        <h4>How to get there?</h4>
-        <div class="transport-box">
-            <p>Otrębusy is located 30min drive away from Warsaw city center (~20km) / 1hr 45min drive away from Łódź city center (~120km).
-            Please consider leaving a bit earlier to avoid heavy traffic as Wednesday is the first day of a long weekend in Poland (Boże Ciało).
-            There is plenty of space to park a car both nearby the Church and in front of Pałacyk Otrębusy.</p>
-        </div>
-        <div class="transport-box">
-            <p>Otrębusy has a direct railway link with Warsaw city center. Take a WKD train from Warszawa Śródmieście WKD station and get off at Otrębusy WKD station. The church is located 11min walk from the station. Check the itinerary on <a href="https://jakdojade.pl/warszawa/trasa/">Jak Dojade</a></p>
-        </div>
-        <div class="transport-box">
-            <p>A ride from Warsaw takes approximately 30 min and should cost you around 40-60 PLN.</p>
-        </div>
-    </section>
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+<script type="text/javascript" src="./js/scripts.js"></script>
+<script type="text/javascript" src="./js/hashtaghistory.js"></script>
+<script type="text/javascript" src="./js/countdown.js"></script>

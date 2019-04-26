@@ -1,0 +1,28 @@
+.insta {
+    margin-bottom: 40px;
+    .wrapper {
+        display: flex;
+        align-items: center !important;
+        justify-content: center !important;
+        img {
+            display: flex;
+        }
+        span {
+            display: block;
+            font-size: 24px;
+            font-weight: bold;
+            margin-left: 5px;
+        }
+        margin-bottom: 15px;
+    }
+    #feed {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        a {
+            margin: 0;
+            padding: 0;
+            height: 150px;
+        }
+    }
+}

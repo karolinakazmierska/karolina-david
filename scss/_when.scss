@@ -1,51 +1,67 @@
 .when {
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    h3 {
-        font-family: 'Italianno', cursive;
-        font-size: 50px;
-        margin-bottom: 20px;
-        color: $primary-color;
-    }
-    .description {
-        height: 280px;
-        width: 280px;
-        background-color: #fafafa;
-        box-shadow: 10px 10px 11px -6px rgba(41,36,66,1);
-        -webkit-box-shadow: 10px 10px 11px -6px rgba(41,36,66,1);
-        -moz-box-shadow: 10px 10px 11px -6px rgba(41,36,66,1);
-        margin-bottom: 25px;
-        padding: 12px;
-        text-align: center;
-        .date {
-            font-size: 24px;
-            font-weight: bold;
-            line-height: 1.4em;
-            color: $primary-color;
-        }
-        .day, .hour {
-            font-size: 18px;
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 20px;
+        .description {
+            height: 280px;
+            width: 280px;
+            background-color: $color5;
+            box-shadow: 10px 10px 11px -6px rgba(41,36,66,1);
+            -webkit-box-shadow: 10px 10px 11px -6px rgba(41,36,66,1);
+            -moz-box-shadow: 10px 10px 11px -6px rgba(41,36,66,1);
+            margin-bottom: 25px;
+            padding: 12px;
             text-align: center;
-            line-height: 1.4em;
+            .date {
+                font-size: 24px;
+                font-weight: bold;
+                line-height: 1.4em;
+                color: $primary-color;
+            }
+            .day, .hour {
+                font-size: 18px;
+                text-align: center;
+                line-height: 1.4em;
+            }
+            .type {
+                font-weight: bold;
+                margin-top: 5px;
+                color: $primary-color;
+            }
         }
-        .type {
-            font-weight: bold;
-            margin-top: 5px;
-            color: $primary-color;
+        .palace {
+            height: 280px;
+            width: 280px;
+            background: url('./../images/palacyk.jpg');
+            background-position: -50px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            box-shadow: 10px 10px 11px -6px rgba(41,36,66,1);
+            -webkit-box-shadow: 10px 10px 11px -6px rgba(41,36,66,1);
+            -moz-box-shadow: 10px 10px 11px -6px rgba(41,36,66,1);
         }
     }
-    .palace {
-        height: 280px;
-        width: 280px;
-        background: url('./../images/palacyk.jpg');
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        box-shadow: 10px 10px 11px -6px rgba(41,36,66,1);
-        -webkit-box-shadow: 10px 10px 11px -6px rgba(41,36,66,1);
-        -moz-box-shadow: 10px 10px 11px -6px rgba(41,36,66,1);
+}
+
+@media (min-width: 768px) {
+    .when .wrapper {
+        width: 80vw;
+        flex-direction: row !important;
+        justify-content: space-around !important;
+        .description {
+            margin: 0 !important;
+            width: 360px !important;
+        }
+        .palace {
+            width: 360px !important;
+        }
     }
 }

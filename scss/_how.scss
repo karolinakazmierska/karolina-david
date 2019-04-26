@@ -4,49 +4,74 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    h4 {
-        font-family: 'Italianno', cursive;
-        font-size: 50px;
-        margin-bottom: 38px;
-        color: $primary-color;
-    }
-    .transport-box {
-        height: auto;
-        width: 280px;
-        background-color: #fafafa;
-        box-shadow: 10px 10px 11px -6px rgba(41,36,66,1);
-        -webkit-box-shadow: 10px 10px 11px -6px rgba(41,36,66,1);
-        -moz-box-shadow: 10px 10px 11px -6px rgba(41,36,66,1);
-        margin-bottom: 38px;
-        padding: 20px 12px;
-        text-align: center;
-        position: relative;
-        color: $tertiary-color;
-        a {
-            color: $primary-color;
-        }
-
-    }
-    div:nth-child(2)::after,
-    div:nth-child(3)::after,
-    div:nth-child(4)::after {
-        content: "By car";
+    position: relative;
+    &::before {
+        content: "";
+        display: block;
         position: absolute;
-        top: 0;
-        left: 50%;
-        transform: translate(-50%,-50%);
-        width: 70%;
-        height: auto;
-        padding: 6px;
-        background-color: $primary-color;
-        color: $secondary-color;
-        text-transform: uppercase;
-        font-weight: bold;
+        bottom: -39px;
+        left: 0;
+        width: 0;
+        height: 0;
+        border-top: 40px solid $secondary-color;
+        border-left: 100vw solid transparent;
+        z-index: 10;
     }
-    div:nth-child(3)::after {
-        content: "By train"
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        .transport-box {
+            height: auto;
+            width: 280px;
+            background-color: $color5;
+            box-shadow: 10px 10px 11px -6px rgba(41,36,66,1);
+            -webkit-box-shadow: 10px 10px 11px -6px rgba(41,36,66,1);
+            -moz-box-shadow: 10px 10px 11px -6px rgba(41,36,66,1);
+            margin-bottom: 38px;
+            padding: 25px 12px;
+            text-align: center;
+            position: relative;
+            color: $tertiary-color;
+            a {
+                color: $primary-color;
+            }
+        }
+        div:nth-child(1)::after,
+        div:nth-child(2)::after,
+        div:nth-child(3)::after {
+            content: "By car";
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 70%;
+            height: auto;
+            padding: 6px;
+            background-color: $color4;
+            color: $secondary-color;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        div:nth-child(2)::after {
+            content: "By train"
+        }
+        div:nth-child(3)::after {
+            content: "By Uber / Taxi"
+        }
     }
-    div:nth-child(4)::after {
-        content: "By Uber / Taxi"
+}
+
+@media (min-width: 768px) {
+    .how .wrapper {
+        flex-direction: row;
+        align-items: flex-start !important;
+        width: 100%;
+        .transport-box {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
     }
 }

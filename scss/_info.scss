@@ -1,0 +1,37 @@
+.info {
+    height: auto;
+    background: url('./../images/tower.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    h4 {
+        color: $secondary-color;
+    }
+    .piece {
+        border-left: 4px solid $primary-color;
+        background-color: $secondary-color;
+        margin-bottom: 10px;
+        padding: 10px;
+        span {
+            display: block;
+            padding: 4px 4px 4px 0;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: $primary-color;
+            font-size: 18px;
+        }
+        strong {
+            color: $primary-color;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .info {
+        background: $color4;
+    }
+}
