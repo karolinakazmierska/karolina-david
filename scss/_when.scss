@@ -4,10 +4,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    // background: url('./../images/palacyk.jpg');
-    // background-position: center;
-    // background-repeat: no-repeat;
-    // background-size: cover;
+    h3 {
+        font-family: 'Italianno', cursive;
+        font-size: 50px;
+        margin-bottom: 20px;
+        color: $primary-color;
+    }
     .description {
         height: 280px;
         width: 280px;
