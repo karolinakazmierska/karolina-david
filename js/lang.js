@@ -109,51 +109,57 @@ var mapPL = {
     plan6time: "21:30",
     plan6title: "Tort",
     plan6subtitle: "",
+    plan7time: "00:00",
+    plan7title: "Drugie danie główne",
+    plan7subtitle: "",
+    plan8time: "00:30",
+    plan8title: "Oczepiny",
+    plan8subtitle: "Ale nie tradycyjne, polskie oczepiny, lecz - dużo atrakcji!",
 
     contactTitle: "Świadkowie",
     contactSubtitle: "...a zarazem osoby do kontaktu",
 
     accTitle: "Zakwaterowanie w dniu wesela",
-    accText: "Accommodation at Pałacyk Otrębusy will be provided for you. Your key and room number will be waiting for you at the reception desk.",
-    accCheckin: "Check-in time (19.06): 2:00 pm",
-    accCheckout: "Check-out time (20.06): 12:00 pm",
-    accText2: "You may arrive earlier to check-in and get ready in your room, but please make sure to leave at 4:15 pm at latest to get to the church on time (which is located 200m away).",
-    accText3: "There is also a swimming pool available from 7:00 am till 9:00 pm.",
-    accText4: "On Thursday morning, we kindly invite you to join us for a breakfast that starts at 10:00 am. Please dress nicely as well! Don’t go in you pijamas :)",
+    accText: "Zapewnimy Ci zakwaterowanie w Pałacyku Otrębusy. Klucz do pokoju będzie na Ciebie czekać na recepcji.",
+    accCheckin: "Check-in (19.06): od godziny 14:00",
+    accCheckout: "Check-out (20.06): do godziny 12:00",
+    accText2: "W dniu wesela możesz zakwaterować się o godzinie 14:00 i wyszykować się w swoim pokoju. Prosimy jednak o opuszczenie pokoju i udanie się do kościoła (oddalonego o 200m) najpóźniej o 16:15",
+    accText3: "W Pałacyku Otrębusy znajduje się basen do dyspozycji gości, czynny od 7:00 do 21:00",
+    accText4: "W czwartek rano serdecznie zapraszamy Cię na wspólne śniadanie o godzinie 10:00. Obowiązuje strój elegancki - czyli nie pidżama :)",
 }
 
 /* SPANISH LANGUAGE VERSION */
 var mapES = {
-    homeJoinUs: "Join us at our wedding",
-    homeDays: "days",
-    homeHours: "hours",
-    homeMinutes: "minutes",
-    homeSeconds: "seconds",
+    homeJoinUs: "Acompañanos en nuestra boda",
+    homeDays: "días",
+    homeHours: "horas",
+    homeMinutes: "minutos",
+    homeSeconds: "segundos",
 
-    whenWhere: "When & where?",
-    whenDay: "Wednesday",
-    whenTime: "4:30 pm",
-    whenCeremony: "Wedding ceremony:",
-    churchAddress: "Church of St Mary, Mother of the Church, 14 Sadowa Street, Otrebusy, Poland",
-    whenReception: "Wedding reception:",
-    palacykAddress: "Pałacyk Otrebusy, 2 Warszawska Street, Otrebusy",
+    whenWhere: "¿Cuándo y dónde?",
+    whenDay: "Miércoles",
+    whenTime: "16:30",
+    whenCeremony: "Ceremonia religiosa:",
+    churchAddress: "Iglesia de Santa María Madre de la Iglesia en Otrębusy, calle Sadowa 14, Otrębusy",
+    whenReception: "Boda:",
+    palacykAddress: "Pałacyk Otrębusy, calle Warszawska 2, Otrębusy",
 
-    howTitle: "How to get there?",
-    howBycar: "<strong>From Warsaw city center:</strong> 20km (~30min)<br/> <strong>From Łódź city center:</strong> 120km (~1h45min).</br/>    Please consider leaving a bit earlier to <strong>avoid heavy traffic</strong> as Wednesday is the first day of <strong>a long weekend</strong> in Poland (Boże Ciało). <br/> Parking space available both nearby the Church and in front of Pałacyk Otrębusy.",
-    howBytrain: "Otrębusy has a <b>direct railway link</b> with Warsaw city center. Take a WKD train from Warszawa Śródmieście WKD station and get off at <b>Otrębusy WKD station</b>. The church is located 11min walk from the station. Check the itinerary on <a href='https://jakdojade.pl/warszawa/trasa/'>Jak Dojade</a>",
-    howByuber: "A ride from Warsaw takes approximately 30 min and should cost you around 40-60 PLN.",
+    howTitle: "¿Cómo llegar?",
+    howBycar: "<strong>Desde el centro de Varsovia:</strong> 20km (~30min)<br/> Por favor intenta llegar con tiempo ya que el día de la boda es también comienzo de find de semana largo en Polonia, por lo que puede haber tráfico.<br/> Lugares de estacionamiento disponibles afuera de la iglesia y en el jardín del salón de boda.",
+    howBytrain: "Hay un tren que llega a Otrębusy desde el centro de Varsovia (y hace 30 min). Toma el tren WKD en la estación Warszawa Śródmieście y baja en la estación <b>Otrębusy</b>. La iglesia está ubicada 11 min a pie desde la estación. Puedes ver el horario de los trenes aquí: <a href='https://jakdojade.pl/warszawa/trasa/'>Jak Dojade</a>",
+    howByuber: "Un Uber o un Taxi desde el centro de Varsovia toma alrededor de 30 min y debería costar entre 40 y 60 PLN (zloty).",
 
-    infoTitle: "Before the wedding...",
-    info1title: "Special menu",
-    info1text: "If you have any specific <strong>dietary restrictions </strong>(e.g. vegan, vegetarian, gluten-free, lactose-free etc.) <strong>please let us know by June 4th</strong>",
-    info2title: "Getting back to Warsaw",
-    info2text: "During the night, free transportation <strong>back to Warsaw Central Station</strong> between 3:30 and 7:00 am will be provided (a car for 8 people leaving every 45-60 min). Should you like to use it <strong>please let us know by June 4th</strong>",
-    info3title: "No rice tossing...",
-    info3text: "After the wedding ceremony, <strong>please do not toss rice, confetti or anything else</strong> in front of the church. The Priest made if very clear he will make you pick it all up...",
+    infoTitle: "Información importante",
+    info1title: "Menu especial",
+    info1text: "Si sufres de alguna alergia alimentaria o eres vegetariano / vegano etc. <strong>por favor avísanos antes del 4 de Junio</strong>",
+    info2title: "Regreso nocturno a Varsovia",
+    info2text: "Durante la noche vamos a organizar transporte para los que se quisieran regresar a Varsovia. Proporcionaremos un carro con capacidad de 8 personas que va a salir hacía el centro de Varsovia cada hora entre las 4 y las 7 de la mañana. Si quisieras que te incluyeramos, <strong>por favor avísanos antes del 4 de Junio</strong>",
+    info3title: "Prohíbido arrojar cosas",
+    info3text: "Está prohibido arrojar arroz, confetti, monedas o cualquier tipo de cosas a los novios a la salida de la iglesia. El padre lo dejó muy claro que quien arroje algo, se quedará hasta recoger el último grano... :)",
 
-    planTitle: "The Plan",
-    planRemark: "*The plan is an approximate and may change",
-    plan1time: "4:30 pm",
+    planTitle: "El Plan",
+    planRemark: "*El horario puede cambiar",
+    plan1time: "16:30",
     plan1title: "Title 1",
     plan1subtitle: "Subtitle",
     plan2time: "XXX",
@@ -172,16 +178,16 @@ var mapES = {
     plan6title: "xxx",
     plan6subtitle: "xxx",
 
-    contactTitle: "Maids of Honour & Best Men",
-    contactSubtitle: "...and your points of contact",
+    contactTitle: "Las Madrinas y los Padrinos",
+    contactSubtitle: "...",
 
     accTitle: "Hospedaje el día de la boda",
-    accText: "Accommodation at Pałacyk Otrębusy will be provided for you. Your key and room number will be waiting for you at the reception desk.",
-    accCheckin: "Check-in time (19.06): 2:00 pm",
-    accCheckout: "Check-out time (20.06): 12:00 pm",
-    accText2: "You may arrive earlier to check-in and get ready in your room, but please make sure to leave at 4:15 pm at latest to get to the church on time (which is located 200m away).",
-    accText3: "There is also a swimming pool available from 7:00 am till 9:00 pm.",
-    accText4: "On Thursday morning, we kindly invite you to join us for a breakfast that starts at 10:00 am. Please dress nicely as well! Don’t go in you pijamas :)",
+    accText: "El día de la boda te vamos a proporcionar hospedaje en Pałacyk Otrębusy. Tu número de cuarto y la llave te esperarán en la recepción.",
+    accCheckin: "Check-in (19.06): desde las 14:00",
+    accCheckout: "Check-out (20.06): hasta las 12:00",
+    accText2: "El día de la boda puedes llegar a tu cuarto desde las 14:00 y arreglarte ahí. Por favor, te pedimos que salgas de Pałacyk Otrębusy a las 16:15 a lo más tardado para llegar a la iglesia a tiempo (que se encuentra a 200 metros de distancia).",
+    accText3: "Para los huespedes hay una alberca disponible desde las 7:00 de la mañana hasta las 21:00 de la noche",
+    accText4: "El jueves te invitamos a un desayuno a las 10:00. Por favor, no vayas con tu pijama :)",
 }
 
 window.addEventListener('DOMContentLoaded', (e) => {
@@ -199,8 +205,6 @@ window.addEventListener('DOMContentLoaded', (e) => {
         document.querySelector('.lang-select').classList.add('invisible');
     }
 
-    // @todo: add change language in nav menu, and on click show .lang-select by removing clas invisible (?)
-
     document.querySelectorAll('.flag').forEach(flag => {
         flag.addEventListener('click', function() {
             var lang = this.getAttribute('id');
@@ -214,6 +218,23 @@ window.addEventListener('DOMContentLoaded', (e) => {
             populate(map);
             document.querySelector('.lang-select').classList.add('invisible');
             var cookie = 'langvalue=' + lang;
+            document.cookie = cookie;
+            console.log(document.cookie)
+        })
+    })
+
+    document.querySelectorAll('.nav-flag').forEach(flag => {
+        flag.addEventListener('click', function() {
+            var lang = this.getAttribute('data-lang');
+            if (lang == 'es') {
+                map = mapES;
+            } else if (lang == 'pl') {
+                map = mapPL;
+            } else {
+                map = mapEN;
+            }
+            populate(map);
+            var cookie = 'langvalue=' + lang; // overwrite cookie (?)
             document.cookie = cookie;
             console.log(document.cookie)
         })
@@ -274,6 +295,12 @@ function populate(lang) {
     if (document.querySelector("[data-text='plan-6-time']")) { document.querySelector("[data-text='plan-6-time']").innerHTML = lang.plan6time };
     if (document.querySelector("[data-text='plan-6-title']")) { document.querySelector("[data-text='plan-6-title']").innerHTML = lang.plan6title };
     if (document.querySelector("[data-text='plan-6-subtitle']")) { document.querySelector("[data-text='plan-6-subtitle']").innerHTML = lang.plan6subtitle };
+    if (document.querySelector("[data-text='plan-7-time']")) { document.querySelector("[data-text='plan-7-time']").innerHTML = lang.plan7time };
+    if (document.querySelector("[data-text='plan-7-title']")) { document.querySelector("[data-text='plan-7-title']").innerHTML = lang.plan7title };
+    if (document.querySelector("[data-text='plan-7-subtitle']")) { document.querySelector("[data-text='plan-7-subtitle']").innerHTML = lang.plan7subtitle };
+    if (document.querySelector("[data-text='plan-8-time']")) { document.querySelector("[data-text='plan-8-time']").innerHTML = lang.plan8time };
+    if (document.querySelector("[data-text='plan-8-title']")) { document.querySelector("[data-text='plan-8-title']").innerHTML = lang.plan8title };
+    if (document.querySelector("[data-text='plan-8-subtitle']")) { document.querySelector("[data-text='plan-8-subtitle']").innerHTML = lang.plan8subtitle };
 
     if (document.querySelector("[data-text='contact-title']")) { document.querySelector("[data-text='contact-title']").innerHTML = lang.contactTitle };
     if (document.querySelector("[data-text='contact-subtitle']")) { document.querySelector("[data-text='contact-subtitle']").innerHTML = lang.contactSubtitle };

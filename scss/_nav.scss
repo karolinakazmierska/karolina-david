@@ -99,6 +99,45 @@
     opacity: 1;
 }
 
+.nav-flag {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px 1px $primary-color;
+}
+
+.nav-flag-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .nav-flag {
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+    }
+    #nav-pl {
+        background: url('./../images/flag-pl.png');
+    }
+    #nav-es {
+        background: url('./../images/flag-mx.png');
+    }
+    #nav-en {
+        background: url('./../images/flag-us.png');
+    }
+    #nav-pl, #nav-es, #nav-en {
+
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
 @media only screen and (min-width: 845px) {
     #menu li a {
         &:hover {
