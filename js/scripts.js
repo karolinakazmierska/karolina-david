@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $(window).scroll(function(){
+    $(window).scroll(function() {
         $('.hideme').each(function(i) {
             var bottom_of_object = $(this).position().top + $(this).outerHeight();
             var bottom_of_window = $(window).scrollTop() + $(window).height();
@@ -11,11 +11,21 @@ $(document).ready(function() {
 
     setTimeout(function() {
         $('.fadeinimage').animate({'opacity':'1'},1500);
-    }, 1000)
-
+    }, 1000);
     setTimeout(function() {
         $('.fadein').animate({'opacity':'1'},1500);
     }, 2000)
+
+    $('.flag').click(function() {
+        $('.fadeinimage').css('opacity', 0);
+        $('.fadein').css('opacity', 0);
+        setTimeout(function() {
+            $('.fadeinimage').animate({'opacity':'1'},1500);
+        }, 1000);
+        setTimeout(function() {
+            $('.fadein').animate({'opacity':'1'},1500);
+        }, 2000)
+    })
 
     $("#feed").hashtaghistory("chidofajny");
 

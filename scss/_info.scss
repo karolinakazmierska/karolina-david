@@ -8,6 +8,10 @@
     position: relative;
     width: 100%;
     padding: 20px;
+    .cont {
+        max-width: 800px;
+        margin: 0 auto;
+    }
     h4 {
         color: $secondary-color;
     }
