@@ -8,6 +8,7 @@
 @import '_plan';
 @import '_contact';
 @import '_insta';
+@import '_lang';
 
 * {
     font-family: 'Cormorant Upright', serif;
@@ -21,6 +22,10 @@
 
 .hideme, .fadein, .fadeinimage {
     opacity: 0;
+}
+
+.invisible {
+    display: none;
 }
 
 .section-title {

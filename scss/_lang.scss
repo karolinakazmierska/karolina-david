@@ -1,0 +1,47 @@
+.lang-select {
+    background-color: $secondary-color;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .logo {
+        font-size: 54px;
+        font-family: 'Italianno', cursive;
+        letter-spacing: 0;
+        margin: 0;
+    }
+    span {
+        font-size: 18px;
+        color: $primary-color;
+        margin: 20px 0;
+    }
+    .flag-container {
+        display: flex;
+        .flag {
+            width: 60px;
+            height: 60px;
+            margin: 10px;
+            cursor: pointer;
+            border-radius: 50%;
+            box-shadow: 1px 1px 1px 1px $primary-color;
+        }
+        #pl {
+            background: url('./../images/flag-pl.png');
+        }
+        #es {
+            background: url('./../images/flag-mx.png');
+        }
+        #en {
+            background: url('./../images/flag-us.png');
+        }
+        #pl, #es, #en {
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+}
