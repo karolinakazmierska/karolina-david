@@ -29,6 +29,17 @@
             left: 2.5em;
             z-index: -1;
         }
+        &::after {
+            content: ' ';
+            height: 1px;
+            width: 10px;
+            background-color: $color4;
+            position: absolute;
+            bottom: 0;
+            left: 2.5em;
+            z-index: -1;
+            transform: translateX(-50%);
+        }
     }
 
     li div {
@@ -85,6 +96,9 @@
         height: auto;
         .timeline {
             padding-left: 25vw;
+            ul::after {
+                display: none;
+            }
         }
     }
 }
