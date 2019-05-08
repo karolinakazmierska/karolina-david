@@ -12,11 +12,16 @@
 <body>
     <div class="lang-select">
         <span class="logo">K & D</span>
-        <span>Select your language:</span>
         <div class="flag-container">
-            <div class="flag" id="pl"></div>
-            <div class="flag" id="es"></div>
-            <div class="flag" id="en"></div>
+            <div class="flag" id="pl">
+                <span>Polski</span>
+            </div>
+            <div class="flag" id="es">
+                <span>Español</span>
+            </div>
+            <div class="flag" id="en">
+                <span>English</span>
+            </div>
         </div>
     </div>
     <div class="container">
@@ -27,13 +32,14 @@
                 <span></span>
                 <span></span>
                 <ul id="menu">
-                  <li><a href="#home">Home</a></li>
-                  <li><a href="#when">When and where</a></li>
-                  <li><a href="#how">How to get there</a></li>
-                  <li><a href="#info">Important info</a></li>
-                  <li><a href="#plan">Detailed plan</a></li>
-                  <li><a href="#insta">#insta</a></li>
-                  <li><a href="#contact">Contact</a></li>
+                  <li><a href="#home" data-text="menu-home">Home</a></li>
+                  <li><a href="#when" data-text="menu-when">When and where</a></li>
+                  <li><a href="#how" data-text="menu-how">How to get there</a></li>
+                  <li><a href="#info" data-text="menu-info">Important info</a></li>
+                  <li><a href="#plan" data-text="menu-plan">Detailed plan</a></li>
+                  <li><a href="#traditions" data-text="menu-traditions"></a></li>
+                  <li><a href="#insta" data-text="menu-insta">#insta</a></li>
+                  <li><a href="#contact" data-text="menu-contact">Contact</a></li>
                 </ul>
             </div>
             <div class="nav-flag-container">
@@ -88,12 +94,15 @@
             <h4 class="section-title" data-text="how-title"></h4>
             <div class="wrapper">
                 <div class="transport-box hideme">
+                    <span class="how-header" data-text="how-header-car"></span>
                     <p data-text="how-bycar"></p>
                 </div>
                 <div class="transport-box hideme">
+                    <span class="how-header" data-text="how-header-train"></span>
                     <p data-text="how-bytrain"></p>
                 </div>
                 <div class="transport-box hideme">
+                    <span class="how-header" data-text="how-header-uber"></span>
                     <p data-text="how-byuber"></p>
                 </div>
             </div>
@@ -191,6 +200,36 @@
             </div>
         </section>
 
+        <section class="traditions">
+            <h4 class="section-title" data-text="traditions-title"></h4>
+            <div class="cont">
+                <div class="tile">
+                    <span class="tile-title" data-text="tile-title-1"></span>
+                    <div class="tile-desc-container">
+                        <span class="tile-desc" data-text="tile-desc-1"></span>
+                    </div>
+                </div>
+                <div class="tile">
+                    <span class="tile-title" data-text="tile-title-2"></span>
+                    <div class="tile-desc-container">
+                        <span class="tile-desc" data-text="tile-desc-2"></span>
+                    </div>
+                </div>
+                <div class="tile">
+                    <span class="tile-title" data-text="tile-title-3"></span>
+                    <div class="tile-desc-container">
+                        <span class="tile-desc" data-text="tile-desc-3"></span>
+                    </div>
+                </div>
+                <div class="tile">
+                    <span class="tile-title" data-text="tile-title-4"></span>
+                    <div class="tile-desc-container">
+                        <span class="tile-desc" data-text="tile-desc-4"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section class="contact">
             <div class="cont">
                 <h4 class="section-title" data-text="contact-title"></h4>
@@ -200,28 +239,28 @@
                         <div class="photo person-1"></div>
                         <div>
                             <p class="name">Kasia</p>
-                            <p class="phone">+12 345 678 980</p>
+                            <p class="phone">+48 509 373 783</p>
                         </div>
                     </div>
                     <div class="person-box">
                         <div class="photo person-2"></div>
                         <div>
                             <p class="name">Iza</p>
-                            <p class="phone">+12 345 678 980</p>
+                            <p class="phone">+48 662 242 032</p>
                         </div>
                     </div>
                     <div class="person-box">
                         <div class="photo person-3"></div>
                         <div>
                             <p class="name">Orlando</p>
-                            <p class="phone">+12 345 678 980</p>
+                            <p class="phone">+XX XXX XXX XXX</p>
                         </div>
                     </div>
                     <div class="person-box">
                         <div class="photo person-4"></div>
                         <div>
                             <p class="name">Miguel Ángel</p>
-                            <p class="phone">+12 345 678 980</p>
+                            <p class="phone">+XX XXX XXX XXX</p>
                         </div>
                     </div>
                 </div>

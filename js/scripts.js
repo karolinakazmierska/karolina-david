@@ -27,6 +27,6 @@ $(document).ready(function() {
         }, 2000)
     })
 
-    $("#feed").hashtaghistory("chidofajny");
+    $("#feed").hashtaghistory("loschidoswedding");
 
 });

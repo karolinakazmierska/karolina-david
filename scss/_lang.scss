@@ -24,10 +24,15 @@
         .flag {
             width: 60px;
             height: 60px;
-            margin: 10px;
+            margin: 16px;
             cursor: pointer;
             border-radius: 50%;
             box-shadow: 1px 1px 1px 1px $primary-color;
+            position: relative;
+            & > span {
+                position: absolute;
+                bottom: -60px;
+            }
         }
         #pl {
             background: url('./../images/flag-pl.png');

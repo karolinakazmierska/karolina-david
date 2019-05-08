@@ -23,43 +23,33 @@
         align-items: center;
         justify-content: center;
         padding: 20px;
+        .how-header {
+            display: block;
+            background-color: $primary-color;
+            color: $secondary-color;
+            text-transform: uppercase;
+            font-weight: bold;
+            margin-left: -12px;
+            margin-right: -12px;
+            margin-bottom: 8px;
+            padding: 8px;
+            width: auto;
+        }
         .transport-box {
             height: auto;
             width: 280px;
-            background-color: $color5;
-            box-shadow: 10px 10px 11px -6px rgba(41,36,66,1);
-            -webkit-box-shadow: 10px 10px 11px -6px rgba(41,36,66,1);
-            -moz-box-shadow: 10px 10px 11px -6px rgba(41,36,66,1);
+            background-color: $secondary-color;
+            box-shadow: 0 0 22px -6px rgba(41,36,66,1);
+            -webkit-box-shadow:0 0 22px -6px rgba(41,36,66,1);
+            -moz-box-shadow: 0 0 22px -6px rgba(41,36,66,1);
             margin-bottom: 38px;
-            padding: 25px 12px;
+            padding: 0 12px 25px 12px;
             text-align: center;
             position: relative;
             color: $tertiary-color;
             a {
                 color: $primary-color;
             }
-        }
-        div:nth-child(1)::after,
-        div:nth-child(2)::after,
-        div:nth-child(3)::after {
-            content: "By car";
-            position: absolute;
-            top: 0;
-            left: 50%;
-            transform: translate(-50%,-50%);
-            width: 70%;
-            height: auto;
-            padding: 6px;
-            background-color: $color4;
-            color: $secondary-color;
-            text-transform: uppercase;
-            font-weight: bold;
-        }
-        div:nth-child(2)::after {
-            content: "By train"
-        }
-        div:nth-child(3)::after {
-            content: "By Uber / Taxi"
         }
     }
 }
