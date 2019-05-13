@@ -4,7 +4,7 @@ var mapEN = {
     menuWhen: "When & where",
     menuHow: "How to get there",
     menuInfo: "Important info",
-    menuPlan: "Day plan",
+    menuPlan: "Wedding day schedule",
     menuTraditions: "Traditions",
     menuInsta: "#insta",
     menuContact: "Contacts",
@@ -19,37 +19,37 @@ var mapEN = {
     whenDay: "Wednesday",
     whenTime: "4:30 pm",
     whenCeremony: "Wedding ceremony:",
-    churchAddress: "Church of St Mary, Mother of the Church, 14 Sadowa Street, Otrebusy, Poland",
+    churchAddress: "Church of St Mary, Mother of the Church, 14 Sadowa Street, Otrębusy, Poland",
     whenReception: "Wedding reception:",
-    palacykAddress: "Pałacyk Otrebusy, 2 Warszawska Street, Otrebusy",
+    palacykAddress: "Pałacyk Otrębusy, 2 Warszawska Street, Otrębusy",
 
     howTitle: "How to get there?",
     howHeaderCar: "By car",
-    howBycar: "<strong>From Warsaw city center:</strong> 20km (~30min)<br/> <strong>From Łódź city center:</strong> 120km (~1h45min).</br/>Please consider leaving a bit earlier to <strong>avoid heavy traffic</strong> as Wednesday is the first day of <strong>a long weekend</strong> in Poland (Boże Ciało). <br/> Parking space available both nearby the Church and in front of Pałacyk Otrębusy.",
+    howBycar: "<strong>From Warsaw city center:</strong> 20km (~30min)<br/> <strong>From Łódź city center:</strong> 120km (~1h45min).</br/>Please consider leaving a bit earlier to <strong>avoid heavy traffic</strong> as Wednesday is the first day of <strong>a long weekend</strong> in Poland (Boże Ciało). <br/>Parking space available both nearby the Church and in front of Pałacyk Otrębusy.",
     howHeaderTrain: "By train",
-    howBytrain: "Otrębusy has a <b>direct railway link</b> with Warsaw city center. Take a WKD train from Warszawa Śródmieście WKD station and get off at <b>Otrębusy WKD station</b>. The church is located 11min walk from the station. Check the itinerary on <a href='https://jakdojade.pl/warszawa/trasa/'>Jak Dojade</a>",
+    howBytrain: "Otrębusy has a <b>direct railway link</b> with Warsaw city center. Take a WKD train from Warszawa Śródmieście WKD station and get off at <b>Otrębusy WKD station</b>. The church is located 11min walk from the station. Check the itinerary on <a href='https://jakdojade.pl/warszawa/trasa/'>Jak Dojadę</a>",
     howHeaderUber: "By Uber/Taxi",
-    howByuber: "A ride from Warsaw takes approximately 30 min and should cost you around 40-60 PLN.",
+    howByuber: "A ride from Warsaw takes approximately 35min and should cost you around 40-60 PLN.",
 
     infoTitle: "Important information",
     info1title: "Special menu & dietary restrictions",
     info1text: "If you have any specific <strong>dietary restrictions </strong>(e.g. vegan, vegetarian, gluten-free, lactose-free etc.) <strong>please let us know by June 4th</strong>",
     info2title: "Getting back to Warsaw",
-    info2text: "During the night, free transportation <strong>back to Warsaw Central Station</strong> between ~ 3:30 and 7:00 am will be provided (a car for 8 people leaving every 45-60 min). Should you need a ride <strong>please let us know by June 4th</strong>",
+    info2text: "During the night, free transportation <strong>back to Warsaw Central Station</strong> between ~ 3:30 am and 7:00 am will be provided (a car for 8 people leaving every 45-60 min). Should you need a ride <strong>please let us know by June 4th</strong>",
     info3title: "No rice tossing...",
-    info3text: "After the wedding ceremony, <strong>please do not toss rice, confetti or anything else</strong> in front of the church. The Priest has made it very clear he will make you pick it all up...",
+    info3text: "After the wedding ceremony, <strong>please do not toss rice, confetti or anything else</strong> in front of the church. The Priest has made it very clear that if you do, he will make you pick it all up...",
 
-    planTitle: "The Plan",
+    planTitle: "Wedding Day Schedule",
     planRemark: "*These hours may be subject to change",
     plan1time: "4:30 pm",
     plan1title: "Wedding ceremony",
     plan1subtitle: "The religious ceremony will start at 4:30 sharp. Let's all meet at the church",
     plan2time: "5:20 pm",
-    plan2title: "Photo",
+    plan2title: "Group Photo",
     plan2subtitle: "After leaving the church, we will take a group photo on the stairs",
     plan3time: "5:50 pm",
     plan3title: "The wishes",
-    plan3subtitle: "We'd like to receive the wishes in the garden behind Pałacyk Otrębusy",
+    plan3subtitle: "We'd like to receive the wishes in the garden of Pałacyk Otrębusy",
     plan4time: "7:30 pm",
     plan4title: "Wedding reception",
     plan4subtitle: "After a brief toast, we will all enter the main hall where dinner will be served",
@@ -70,7 +70,7 @@ var mapEN = {
     tileTitle1: "Road Blocks",
     tileDesc1: "<span style='color: #100075; font-size: 18px; font-weight: bold;'>A</span>ccording to the old Polish tradition, the wedding party may be stopped on the way to church or after leaving the church by a road block set up by random people not invited to the wedding. This may be a rope festooned with ribbons and flowers and stretched across the road or just a car parked in a way that it blocks the way. The wedding party is allowed to pass only after paying a ransom – usually a bottle of vodka :)",
     tileTitle2: "Food",
-    tileDesc2: "<span style='color: #100075; font-size: 18px; font-weight: bold;'>T</span>here will be a soup, 2 main dishes, 1 hot snack, 8 cold snacks, fruit / dessert / traditional Polish food tables, unlimited tea and coffee, and also around 3:00 am we will serve a typical Mexican dish called chilaquiles and Polish żurek. We encourage you to try every dish! Not only for pleasure, but also to make sure you don’t pass out after mixing vodka with tequila…",
+    tileDesc2: "<span style='color: #100075; font-size: 18px; font-weight: bold;'>T</span>here will be a soup, 2 main dishes, 1 hot snack, 8 cold snacks, fruit / dessert / traditional Polish food tables, unlimited tea and coffee, and also around 3:00 am we will serve Polish żurek and Mexican chilaquiles. We encourage you to try every dish! Not only for pleasure, but also to make sure you don’t pass out after mixing vodka with tequila…",
     tileTitle3: "Oczepiny",
     tileDesc3: "<span style='color: #100075; font-size: 18px; font-weight: bold;'>W</span>here many weddings would be winding down as midnight approaches, a Polish wedding is just approaching one of its most traditional moments – a ceremony called oczepiny. Traditionally, the oczepiny ceremony began with the removal of the bridal veil and the unbraiding and cutting of the young bride’s hair. It traditionally represented the transitional moment for the bride as she moved from her single youth towards her married future. As you may suspect, Karolina would not welcome her hair being cut, so we will celebrate this moment in a different way - it will be time for fun and games. The bride will toss her bouquet, the groom will toss his bowtie and we will also have a piñata!",
     tileTitle4: "La piñata",
@@ -158,11 +158,11 @@ var mapPL = {
 
     traditionsTitle: "Tradycje i zwyczaje",
     tileTitle1: "Bramki i szlabany",
-    tileDesc1: "<span style='color: #100075; font-size: 18px; font-weight: bold;'>N</span>a drodze z kościoła do sali weselnej można spodziewać się różnego rodzaju przeszkód, ustawionych przez osoby oczekujące zapłaty za odblokowanie drogi. Najczęściej zapłatą jest alkohol :)",
+    tileDesc1: "<span style='color: #100075; font-size: 18px; font-weight: bold;'>W</span>edług polskiej tradycji, na drodze z kościoła do sali weselnej można spodziewać się różnego rodzaju przeszkód, ustawionych przez osoby (niekoniecznie będące gośćmi weselnymi) oczekujące zapłaty za odblokowanie drogi. Najczęściej zapłatą jest alkohol :)",
     tileTitle2: "Jedzenie",
-    tileDesc2: "<span style='color: #100075; font-size: 18px; font-weight: bold;'>P</span>odczas wesela podane zostaną: zupa, dwa dania główne, jedna ciepła przekąska, osiem zimnych przekąsek. Będą również dostępne: stół z tradycyjnym polskim jedzeniem, stół z ciastami, stół z owocami, a około 3:00 nad ranem podamy polski żurek oraz meksykańskie chilaquiles. Jedzcie na zdrowie, aby wytrwać mieszanie wódki z tequilą...",
+    tileDesc2: "<span style='color: #100075; font-size: 18px; font-weight: bold;'>P</span>odczas wesela podane zostaną: zupa, dwa dania główne, jedna ciepła przekąska, osiem zimnych przekąsek. Będą również dostępne: stół z tradycyjnym polskim jedzeniem, stół z ciastami, stół z owocami, a około 3:00 nad ranem podamy polski żurek oraz meksykańskie danie chilaquiles. Jedzcie na zdrowie, i aby przetrwać mieszanie wódki z tequilą...",
     tileTitle3: "Oczepiny",
-    tileDesc3: "<span style='color: #100075; font-size: 18px; font-weight: bold;'>T</span>radycyjny oczepiny wiązały się z obcięciem warkocza Panny Młodej. Jak możecie się domyślać, niczego takiego nie planujemy... Możecie się za to spodziewać rzutu bukietem Panny Młodej i muszką Pana Młodego, jak również meksykańskiej piniaty i innych tradycyjnych 'gier i zabaw'",
+    tileDesc3: "<span style='color: #100075; font-size: 18px; font-weight: bold;'>T</span>radycyjne oczepiny wiązały się z obcięciem warkocza Panny Młodej. Jak możecie się domyślać, niczego takiego nie planujemy... Możecie się za to spodziewać rzutu bukietem Panny Młodej i muszką Pana Młodego, jak również meksykańskiej piniaty i innych tradycyjnych 'gier i zabaw'",
     tileTitle4: "La piñata",
     tileDesc4: "<span style='color: #100075; font-size: 18px; font-weight: bold;'>P</span>iniata to pochodząca z Meksyku zabawa polegająca na rozbiciu kolorowej kuli wypełnionej słodyczami / owocami / pieniędzmy (zawartość pozostanie niespodzianką :)). Zachęcamy wszystkich do wzięcia w niej udziału!",
 
@@ -312,20 +312,14 @@ window.addEventListener('DOMContentLoaded', (e) => {
                 map = mapEN;
             }
             populate(map);
-            var cookie = 'langvalue=' + lang; // overwrite cookie (?)
+            var cookie = 'langvalue=' + lang;
             document.cookie = cookie;
             console.log(document.cookie)
         })
     })
-
 })
 
-
-
 function populate(lang) {
-    console.log("Pooopulating")
-    console.log(lang);
-
     if (document.querySelector("[data-text='menu-home']")) { document.querySelector("[data-text='menu-home']").textContent = lang.menuHome};
     if (document.querySelector("[data-text='menu-when']")) { document.querySelector("[data-text='menu-when']").textContent = lang.menuWhen};
     if (document.querySelector("[data-text='menu-how']")) { document.querySelector("[data-text='menu-how']").textContent = lang.menuHow};
@@ -394,18 +388,6 @@ function populate(lang) {
     if (document.querySelector("[data-text='plan-8-title']")) { document.querySelector("[data-text='plan-8-title']").innerHTML = lang.plan8title };
     if (document.querySelector("[data-text='plan-8-subtitle']")) { document.querySelector("[data-text='plan-8-subtitle']").innerHTML = lang.plan8subtitle };
 
-    // var tileTitleCount = 0;
-    // document.querySelectorAll("[data-text='tile-title']").forEach(tileTitle => {
-    //     console.log(tileTitle);
-    //     var title = 'tileTitle' + tileTitleCount;
-    //     console.log(title);
-    //     console.log(lang.hasOwnProperty(title)) // true
-    //     console.log(lang);
-    //     console.log(lang.title); // undefined
-    //     tileTitle.innerHTML = lang.tileTitle2;
-    //     tileTitleCount++;
-    // })
-
     if (document.querySelector("[data-text='traditions-title']")) { document.querySelector("[data-text='traditions-title']").innerHTML = lang.traditionsTitle };
     if (document.querySelector("[data-text='tile-title-1']")) { document.querySelector("[data-text='tile-title-1']").innerHTML = lang.tileTitle1 };
     if (document.querySelector("[data-text='tile-title-2']")) { document.querySelector("[data-text='tile-title-2']").innerHTML = lang.tileTitle2 };
@@ -426,6 +408,4 @@ function populate(lang) {
     if (document.querySelector("[data-text='acc-text2']")) { document.querySelector("[data-text='acc-text2']").innerHTML = lang.accText2 };
     if (document.querySelector("[data-text='acc-text3']")) { document.querySelector("[data-text='acc-text3']").innerHTML = lang.accText3 };
     if (document.querySelector("[data-text='acc-text4']")) { document.querySelector("[data-text='acc-text4']").innerHTML = lang.accText4 };
-
-
 }
