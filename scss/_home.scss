@@ -99,3 +99,10 @@
         }
     }
 }
+
+// fix for background-size cover on iOS
+@media (max-width: 414px) and (max-height : 736px)  {
+    .home {
+        background-size: 140vw !important;
+    }
+}

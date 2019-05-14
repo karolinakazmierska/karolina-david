@@ -58,12 +58,15 @@
                 font-size: 13px;
             }
         }
-        &:hover {
-            .tile-desc-container {
-                opacity: 1;
-                -webkit-transform: scaleX(1);
-                transform: scaleX(1);
-            }
+    }
+}
+
+@media (min-width: 768px) {
+    .tile:hover {
+        .tile-desc-container {
+            opacity: 1;
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
         }
     }
 }
@@ -74,5 +77,10 @@
     }
     .tile-desc-container {
         height: 120px !important
+    }
+    .turned {
+        opacity: 1 !important;
+        -webkit-transform: scaleX(1) !important;
+        transform: scaleX(1) !important;
     }
 }

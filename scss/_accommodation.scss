@@ -13,10 +13,11 @@
     }
     p {
         margin-bottom: 15px;
+        max-width: 65vw;
     }
     i {
         display: inline-block;
-        margin-left: 20px;
+        margin-left: 10px;
         color: $primary-color;
     }
     [data-text='acc-checkin'], [data-text='acc-checkout'] {

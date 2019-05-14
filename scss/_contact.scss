@@ -82,7 +82,8 @@
             color: $secondary-color;
         }
         .phone {
-            color: $secondary-color;
+            color: $secondary-color !important;
+            text-decoration: none;
         }
     }
 }

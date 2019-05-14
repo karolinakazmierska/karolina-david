@@ -27,6 +27,11 @@ $(document).ready(function() {
         }, 2000)
     })
 
+    $('.tile').click(function() {
+        $(this).children('.tile-desc-container').toggleClass('turned');
+        console.log('Clicked')
+    })
+
     $("#feed").hashtaghistory("loschidoswedding");
 
 });

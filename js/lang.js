@@ -27,7 +27,7 @@ var mapEN = {
     howHeaderCar: "By car",
     howBycar: "<strong>From Warsaw city center:</strong> 20km (~30min)<br/> <strong>From Łódź city center:</strong> 120km (~1h45min).</br/>Please consider leaving a bit earlier to <strong>avoid heavy traffic</strong> as Wednesday is the first day of <strong>a long weekend</strong> in Poland (Boże Ciało). <br/>Parking space available both nearby the Church and in front of Pałacyk Otrębusy.",
     howHeaderTrain: "By train",
-    howBytrain: "Otrębusy has a <b>direct railway link</b> with Warsaw city center. Take a WKD train from Warszawa Śródmieście WKD station and get off at <b>Otrębusy WKD station</b>. The church is located 11min walk from the station. Check the itinerary on <a href='https://jakdojade.pl/warszawa/trasa/'>Jak Dojadę</a>",
+    howBytrain: "Otrębusy has a <b>direct railway link</b> with Warsaw city center. Take a WKD train from Warszawa Śródmieście WKD station and get off at <b>Otrębusy WKD station</b>. The church is located 11min walk from the station. Check the itinerary on <a href='https://jakdojade.pl/warszawa/trasa/' target='_blank'>Jak Dojadę</a>",
     howHeaderUber: "By Uber/Taxi",
     howByuber: "A ride from Warsaw takes approximately 35min and should cost you around 40-60 PLN.",
 
@@ -117,7 +117,7 @@ var mapPL = {
     howHeaderCar: "Samochodem",
     howBycar: "<strong>Odległość od Warszawy</strong> 20km (~30min)<br/> <strong>Odległość od Łodzi</strong> 120km (~1h45min).</br/>Zachęcamy, aby wyjechać trochę wcześniej, ponieważ środa to <strong>początek długiego weekendu</strong>, przez co można spodziewać się korków.<br/> Miejsca parkingowe są dostępne przy kościele oraz na terenie Pałacyku",
     howHeaderTrain: "Pociągiem",
-    howBytrain: "Otrębusy mają <b>bezpośrednie połączenie kolejowe</b> z centrum Warszawy. Ze stacji Warszawa Śródmieście można dojechać do stacji Orębusy kolejką WKD. Kościół znajduje się 10 min piechotą od stacji. Rozkład jazdy kolejek można sprawdzić na stronie <a href='https://jakdojade.pl/warszawa/trasa/'>Jak Dojade</a>",
+    howBytrain: "Otrębusy mają <b>bezpośrednie połączenie kolejowe</b> z centrum Warszawy. Ze stacji Warszawa Śródmieście można dojechać do stacji Orębusy kolejką WKD. Kościół znajduje się 10 min piechotą od stacji. Rozkład jazdy kolejek można sprawdzić na stronie <a href='https://jakdojade.pl/warszawa/trasa/' target='_blank'>Jak Dojade</a>",
     howHeaderUber: "Uberem/Taksówką",
     howByuber: "Podróż Uberem/Taksówką z centrum Warszawy zajmuje ok. 30 min i kosztuje ok. 40-60 PLN",
 
@@ -207,7 +207,7 @@ var mapES = {
     howHeaderCar: "En coche",
     howBycar: "<strong>Desde el centro de Varsovia:</strong> 20km (~30min)<br/> Por favor intenta llegar con tiempo ya que el día de la boda es también comienzo de find de semana largo en Polonia, por lo que puede haber tráfico.<br/> Lugares de estacionamiento disponibles afuera de la iglesia y en el jardín del salón de boda.",
     howHeaderTrain: "En tren",
-    howBytrain: "Hay un tren que llega a Otrębusy desde el centro de Varsovia (y hace 30 min). Toma el tren WKD en la estación Warszawa Śródmieście y baja en la estación <b>Otrębusy</b>. La iglesia está ubicada 11 min a pie desde la estación. Puedes ver el horario de los trenes aquí: <a href='https://jakdojade.pl/warszawa/trasa/'>Jak Dojade</a>",
+    howBytrain: "Hay un tren que llega a Otrębusy desde el centro de Varsovia (y hace 30 min). Toma el tren WKD en la estación Warszawa Śródmieście y baja en la estación <b>Otrębusy</b>. La iglesia está ubicada 11 min a pie desde la estación. Puedes ver el horario de los trenes aquí: <a href='https://jakdojade.pl/warszawa/trasa/' target='_blank'>Jak Dojade</a>",
     howHeaderUber: "En Uber/Taxi",
     howByuber: "Un Uber o un Taxi desde el centro de Varsovia toma alrededor de 30 min y debería costar entre 40 y 60 PLN (zloty).",
 
@@ -271,7 +271,6 @@ var mapES = {
 window.addEventListener('DOMContentLoaded', (e) => {
     if (document.cookie.includes('langvalue')) {
         var lang = document.cookie.substring(document.cookie.indexOf('langvalue')+10).slice(0,2);
-        console.log('Populating site with:', lang);
         if (lang == 'es') {
             map = mapES;
         } else if (lang == 'pl') {
@@ -280,6 +279,7 @@ window.addEventListener('DOMContentLoaded', (e) => {
             map = mapEN;
         }
         populate(map);
+        setHtmlAttr(lang);
         document.querySelector('.lang-select').classList.add('invisible');
     }
 
@@ -294,10 +294,10 @@ window.addEventListener('DOMContentLoaded', (e) => {
                 map = mapEN;
             }
             populate(map);
+            setHtmlAttr(map);
             document.querySelector('.lang-select').classList.add('invisible');
             var cookie = 'langvalue=' + lang;
             document.cookie = cookie;
-            console.log(document.cookie)
         })
     })
 
@@ -312,12 +312,17 @@ window.addEventListener('DOMContentLoaded', (e) => {
                 map = mapEN;
             }
             populate(map);
+            setHtmlAttr(map);
             var cookie = 'langvalue=' + lang;
             document.cookie = cookie;
-            console.log(document.cookie)
         })
     })
 })
+
+function setHtmlAttr(lang) {
+    var html = document.querySelector('html');
+    html.setAttribute('lang', lang)
+}
 
 function populate(lang) {
     if (document.querySelector("[data-text='menu-home']")) { document.querySelector("[data-text='menu-home']").textContent = lang.menuHome};
