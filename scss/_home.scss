@@ -104,6 +104,7 @@
 @media (max-width: 414px) and (max-height : 736px)  {
     .home {
         background-size: 140vw !important;
+        background-attachment: scroll;
     }
 }
 
